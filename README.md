@@ -1,11 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/_e9whi2b)
 
-# **[Mama Bunga's Kitchen](kitchen.adaapadengancheetah.site)**
+# **[Mama Bunga's Kitchen](https://kitchen.adaapadengancheetah.site)**
 
 # Instructions
 
 Step 1:
-First, You must go to **[Mama Bunga's Kitchen](kitchen.adaapadengancheetah.site)** site.
+First, You must go to **[Mama Bunga's Kitchen](https://kitchen.adaapadengancheetah.site)** site.
 
 Step 2:
 Click User logo on the right top. And then Sign in or Sign up.
@@ -47,6 +47,10 @@ Thank You.
 11. I planned to make a grid. Then I started to search and collect Photos from the internet.
 12. Here is an example of my style.css, how I using nested CSS, and media queries:
     ![](./img/doc/css.PNG)
+13. And here is an example of my script.js to make navigation menu available in smaller width screen devices.
+    ![](./img/doc/js.PNG)
+14. And this is how it looks.
+    ![](./img/doc/dropdown-menu.PNG)
 
 # Design Choices
 
@@ -68,21 +72,10 @@ Thank You.
    I just added some text-decoration like this:
    ![](./img/doc/nav-link-2.PNG)
 
-5. Then I want the font-family of me hero section to be a handwriting font. So I change this:
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-
-15.
-16.
-17.
-18.
-19.
-20.
-21. , over this one
+5. Then I want the font-family of my hero section to be a handwriting font. So I change this:
+   ![](./img/doc/hero-1.PNG)
+   To this:
+   ![](./img/doc/hero-2.PNG)
+6. Last, I decided to make the footer as simple as the Expected Output:
+   ![](./img/doc/footer-1.PNG)
+   ![](./img/doc/footer-2.PNG)

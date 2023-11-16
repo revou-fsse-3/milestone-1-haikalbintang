@@ -59,7 +59,6 @@ body {
 .heading-tertiary,
 .heading-quaternary,
 .heading-quinary {
-  font-family: SuperFuntime;
   color: #efdb92;
 }
 
@@ -72,8 +71,8 @@ body {
 }
 
 .heading-secondary {
-  font-family: "Dancing Script", Kitchen, "Crimson Text", Oneday, Saturday,
-    Pacifico, "Browny Cakes Signature", serif;
+  font-family: "Dancing Script", serif, Kitchen, "Crimson Text", Oneday,
+    Saturday, Pacifico, "Browny Cakes Signature";
   font-size: 3rem;
   font-weight: 100;
 }
@@ -178,6 +177,53 @@ body {
       @media screen and (max-width: 1024px) {
         .fa-bars {
           display: block;
+        }
+      }
+    }
+    .hidden-nav {
+      display: none;
+    }
+    @media screen and (max-width: 1024px) {
+      .hidden-nav.active {
+        display: block;
+      }
+      .hidden-nav {
+        position: absolute;
+        right: 10.5rem;
+        top: 11rem;
+        background-color: #0c0701af;
+        border-bottom: 1rem solid #fff;
+        border-top: 1rem solid rgba(173, 161, 171, 0.667);
+        & ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* padding: 2rem; */
+          & li {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+            margin: 0rem 2rem;
+            font-family: "Crimson Text", Pacifico;
+            & a {
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: #fff;
+              font-size: 2rem;
+              &:link,
+              &:visited {
+                color: #fff;
+              }
+              &:hover,
+              &:active {
+                box-sizing: unset;
+                padding: 3.3rem 0rem 2.8rem;
+                color: #efdb92;
+                border-bottom: 0.5rem solid #efdb92;
+              }
+            }
+          }
         }
       }
     }
@@ -436,7 +482,7 @@ body {
   /* food ends here */
   /* beverage stars here */
   .beverages-menu {
-    padding-top: 5rem;
+    padding: 5rem 0rem;
     .beverage-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -545,9 +591,7 @@ body {
   text-align: center;
   padding: 3rem;
   line-height: 2;
-}
-
-@media screen and (max-width: 1280px) {
+  ph
 }
 
 /* 
