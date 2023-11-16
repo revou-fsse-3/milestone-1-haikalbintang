@@ -407,6 +407,7 @@ body {
     background-color: #e9c95a;
     font-size: 3em;
     padding: 0.75rem;
+    color: #0c0701;
   }
 }
 
@@ -542,7 +543,7 @@ body {
     }
   } /* beverage ends here */
 }
-.item-1 {
+/* .item-1 {
 }
 .item-2 {
 }
@@ -567,7 +568,7 @@ body {
 .item-12 {
 }
 .item-13 {
-}
+} */
 
 /* menu ends here */
 
