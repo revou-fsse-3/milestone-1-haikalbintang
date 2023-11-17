@@ -27,31 +27,32 @@
 
       <!-- nav starts here -->
       <nav class="nav-container">
-        <div class="search-container"></div>
-        <div class="main-nav">
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">foods</a></li>
-            <li><a href="#">beverages</a></li>
-            <li><a href="#">about us</a></li>
-          </ul>
-        </div>
         <div class="hidden-nav-toggler">
           <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </div>
+        <div class="hidden-nav">
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#foods">foods</a></li>
+            <li><a href="#beverages">beverages</a></li>
+            <li><a href="#about-us">about us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="nav-container">
+        <div class="main-nav">
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#foods">foods</a></li>
+            <li><a href="#beverages">beverages</a></li>
+            <li><a href="#about-us">about us</a></li>
+          </ul>
         </div>
         <div class="cart">
           <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div class="user">
           <a href="#"><i class="fa-solid fa-user"></i></a>
-        </div>
-        <div class="hidden-nav">
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">foods</a></li>
-            <li><a href="#">beverages</a></li>
-            <li><a href="#">about us</a></li>
-          </ul>
         </div>
       </nav>
       <!-- nav ends here -->
@@ -60,7 +61,7 @@
 
     <!-- main starts here -->
     <main class="main-container">
-      <section class="hero-container">
+      <section id="home" class="hero-container">
         <h2 class="heading-secondary heading-hero">
           <span class="span-1">"This <br /></span>
           <span class="span-2">is <br /></span>
@@ -69,7 +70,7 @@
       </section>
       <section class="menu-container">
         <h3 class="heading-tertiary">Menu</h3>
-        <div class="foods-menu">
+        <div id="foods" class="foods-menu">
           <h4 class="heading-quaternary">foods</h4>
           <div class="food-grid">
             <div class="item item-1">
@@ -217,7 +218,7 @@
           </div>
         </div>
 
-        <div class="beverages-menu">
+        <div id="beverages" class="beverages-menu">
           <h4 class="heading-quaternary">beverages</h4>
           <div class="beverage-grid">
             <div class="item item-10">
@@ -293,7 +294,7 @@
     <!-- aside ends here -->
 
     <!-- footer starts here -->
-    <footer class="footer">
+    <footer id="about-us" class="footer">
       <p class="address">
         Jl. KH Abdurrahman No. 15 RT 01/01, Pondok Jaya, Cipayung, Depok
       </p>
