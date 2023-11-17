@@ -154,7 +154,7 @@ body {
             align-items: center;
             text-decoration: none;
             color: #fff;
-            font-size: 2rem;
+            font-size: 2.3rem;
             &:link,
             &:visited {
               color: #fff;
@@ -219,7 +219,7 @@ body {
               align-items: center;
               text-decoration: none;
               color: #fff;
-              font-size: 2rem;
+              font-size: 2.3rem;
               &:link,
               &:visited {
                 color: #fff;
